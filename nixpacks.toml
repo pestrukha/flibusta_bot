@@ -1,0 +1,8 @@
+[phases.install]
+cmd = "pip install poetry && poetry install --no-dev"
+
+[phases.build]
+cmd = "echo 'No build phase needed'"
+
+[phases.start]
+cmd = "poetry run python bot.py"
