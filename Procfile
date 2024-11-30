@@ -1,1 +1,1 @@
-echo "web: poetry run python bot.py" > Procfile
+echo "web: poetry run python flibusta_bot/bot.py" > Procfile

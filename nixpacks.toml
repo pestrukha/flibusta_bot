@@ -5,4 +5,4 @@ cmd = "pip install poetry && poetry install --no-dev"
 cmd = "echo 'No build phase needed'"
 
 [phases.start]
-cmd = "poetry run python bot.py"
+cmd = "poetry run flibusta_bot/python bot.py"
